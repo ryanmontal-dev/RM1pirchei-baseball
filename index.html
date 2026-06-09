@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#f6c45b" />
+    <meta name="description" content="Shkoyach Sluggers, a mobile-first Phaser 3 home run derby game." />
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="icon" href="./icons/icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="./icons/apple-touch-icon.svg" />
+    <link rel="stylesheet" href="./src/styles.css" />
+    <title>Shkoyach Sluggers</title>
+  </head>
+  <body>
+    <main id="game-shell">
+      <div id="game"></div>
+    </main>
+    <script type="importmap">
+      {
+        "imports": {
+          "phaser": "https://cdn.jsdelivr.net/npm/phaser@3.90.0/dist/phaser.esm.js"
+        }
+      }
+    </script>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>

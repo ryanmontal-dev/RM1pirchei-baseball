@@ -1,0 +1,25 @@
+{
+  "name": "Shkoyach Sluggers",
+  "short_name": "Sluggers",
+  "description": "A mobile-first Phaser 3 home run derby game.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#23465a",
+  "theme_color": "#f6c45b",
+  "icons": [
+    {
+      "src": "icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/maskable-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}
