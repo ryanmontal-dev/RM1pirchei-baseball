@@ -1,3 +1,4 @@
+import Phaser from 'phaser';
 import { addTextButton } from '../systems/ui.js';
 import { loadSave } from '../systems/save.js';
 

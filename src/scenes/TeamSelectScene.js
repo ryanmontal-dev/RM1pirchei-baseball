@@ -1,3 +1,4 @@
+import Phaser from 'phaser';
 import { TEAMS } from '../data/teams.js';
 import { saveProgress } from '../systems/save.js';
 import { addTextButton } from '../systems/ui.js';
