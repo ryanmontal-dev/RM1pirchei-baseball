@@ -1,4 +1,4 @@
-import Phaser from 'phaser';
+import * as Phaser from 'phaser';
 import { CHARACTERS } from '../data/characters.js';
 import { TEAMS } from '../data/teams.js';
 import { saveProgress } from '../systems/save.js';

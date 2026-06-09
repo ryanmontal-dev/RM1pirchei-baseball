@@ -1,4 +1,4 @@
-import Phaser from 'phaser';
+import * as Phaser from 'phaser';
 import { CHARACTERS } from '../data/characters.js';
 import { TEAMS } from '../data/teams.js';
 import { Fireworks } from '../objects/Fireworks.js';
